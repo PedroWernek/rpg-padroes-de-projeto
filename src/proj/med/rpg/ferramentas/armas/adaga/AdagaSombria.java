@@ -2,6 +2,11 @@ package proj.med.rpg.ferramentas.armas.adaga;
 
 public class AdagaSombria extends Adaga{
 
+
+  public AdagaSombria() {
+
+  }
+
   @Override
   public void atacar() {
     // TODO Auto-generated method stub
@@ -9,9 +14,9 @@ public class AdagaSombria extends Adaga{
   }
 
   @Override
-  public void ataqueEspecial() {
+  public void executarAtaqueEspecial() {
     // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'ataqueEspecial'");
+    throw new UnsupportedOperationException("Unimplemented method 'executarAtaqueEspecial'");
   }
 
 }

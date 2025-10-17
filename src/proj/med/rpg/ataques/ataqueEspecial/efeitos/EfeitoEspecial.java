@@ -1,4 +1,4 @@
-package proj.med.rpg.ferramentas.efeitos;
+package proj.med.rpg.ataques.ataqueEspecial.efeitos;
 
 import proj.med.rpg.entidades.personagem.atibuto.Atributo;
 

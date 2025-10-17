@@ -1,6 +1,6 @@
-package proj.med.rpg.ferramentas.efeitos.tipo;
+package proj.med.rpg.ataques.ataqueEspecial.efeitos.tipo;
 
-import proj.med.rpg.ferramentas.efeitos.EfeitoEspecial;
+import proj.med.rpg.ataques.ataqueEspecial.efeitos.EfeitoEspecial;
 
 public class Queimadura extends EfeitoEspecial{
 
