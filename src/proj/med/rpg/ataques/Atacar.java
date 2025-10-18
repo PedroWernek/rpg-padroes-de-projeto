@@ -1,10 +1,10 @@
 package proj.med.rpg.ataques;
 
-import proj.med.rpg.util.Dados;
+import proj.med.rpg.util.CalcularSucesso;
 
 public class Atacar {
-  public static void executarAtaque(int danoBase,int vida) {
+  public static int executarAtaque(int danoBase, int ladosDado, int vida, int chance) {
     //Rolar dado
-    Dados.rolarD20(2);
+    return vida -= (int)(CalcularSucesso.dano(danoBase, ladosDado, chance));
   }
 }
