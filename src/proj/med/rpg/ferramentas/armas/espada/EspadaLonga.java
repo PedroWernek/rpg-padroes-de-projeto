@@ -1,6 +1,6 @@
 package proj.med.rpg.ferramentas.armas.espada;
 
-import proj.med.rpg.ataques.ataqueEspecial.tipo.CorteProfundo;
+import proj.med.rpg.ataques.ataqueEspecial.CorteProfundo;
 
 public class EspadaLonga extends Espada {
 
@@ -10,13 +10,13 @@ public class EspadaLonga extends Espada {
     }
 
   @Override
-  public void atacar() {
+  public void atacar(int vida) {
     // TODO Auto-generated method stub
     throw new UnsupportedOperationException("Unimplemented method 'atacar'");
   }
 
   @Override
-  public void executarAtaqueEspecial() {
+  public void executarAtaqueEspecial(int vida) {
     // TODO Auto-generated method stub
     throw new UnsupportedOperationException("Unimplemented method 'executarAtaqueEspecial'");
   }

@@ -1,8 +1,6 @@
-package proj.med.rpg.ataques.ataqueEspecial.efeitos.tipo;
+package proj.med.rpg.ataques.efeitos;
 
-import proj.med.rpg.ataques.ataqueEspecial.efeitos.EfeitoEspecial;
-
-public class Sangramento extends EfeitoEspecial{
+public class Queimadura extends EfeitoEspecial{
 
   @Override
   public void aplicarEfeito() {

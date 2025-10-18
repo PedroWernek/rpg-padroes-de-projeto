@@ -8,13 +8,13 @@ public class AdagaSombria extends Adaga{
   }
 
   @Override
-  public void atacar() {
+  public void atacar(int vida) {
     // TODO Auto-generated method stub
     throw new UnsupportedOperationException("Unimplemented method 'atacar'");
   }
 
   @Override
-  public void executarAtaqueEspecial() {
+  public void executarAtaqueEspecial(int vida) {
     // TODO Auto-generated method stub
     throw new UnsupportedOperationException("Unimplemented method 'executarAtaqueEspecial'");
   }

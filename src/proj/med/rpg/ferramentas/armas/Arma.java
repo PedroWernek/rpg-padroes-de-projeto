@@ -6,6 +6,6 @@ public abstract class Arma {
   public int danoBase;
   public AtaqueEspecial ataqueEspecial;
 
-  public abstract void atacar();
-  public abstract void executarAtaqueEspecial();
+  public abstract void atacar(int vida);
+  public abstract void executarAtaqueEspecial(int vida);
 }

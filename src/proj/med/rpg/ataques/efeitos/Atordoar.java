@@ -1,6 +1,4 @@
-package proj.med.rpg.ataques.ataqueEspecial.efeitos.tipo;
-
-import proj.med.rpg.ataques.ataqueEspecial.efeitos.EfeitoEspecial;
+package proj.med.rpg.ataques.efeitos;
 
 public class Atordoar extends EfeitoEspecial {                                                                    
 

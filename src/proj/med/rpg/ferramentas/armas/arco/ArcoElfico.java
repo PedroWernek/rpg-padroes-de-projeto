@@ -1,6 +1,6 @@
 package proj.med.rpg.ferramentas.armas.arco;
 
-import proj.med.rpg.ataques.ataqueEspecial.tipo.ChuvaDeFlechas;
+import proj.med.rpg.ataques.ataqueEspecial.ChuvaDeFlechas;
 
 public class ArcoElfico extends Arco{
 
@@ -11,13 +11,13 @@ public class ArcoElfico extends Arco{
 
 
   @Override
-  public void atacar() {
+  public void atacar(int vida) {
     // TODO Auto-generated method stub
     throw new UnsupportedOperationException("Unimplemented method 'atacar'");
   }
 
   @Override
-  public void executarAtaqueEspecial() {
+  public void executarAtaqueEspecial(int vida) {
     // TODO Auto-generated method stub
     throw new UnsupportedOperationException("Unimplemented method 'executarAtaqueEspecial'");
   }
