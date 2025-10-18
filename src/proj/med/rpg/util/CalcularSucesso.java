@@ -9,7 +9,6 @@ public class CalcularSucesso {
    */
   public static double dano(int danoBase, int ladosDado, int vezesRolado){
       double valorFinal = (double) Dados.rolar(ladosDado, vezesRolado) / ladosDado;
-    System.out.println(valorFinal);
     if (valorFinal <= Valores.ChanceCritico.getValor()) {
       System.out.println("Critico!");
       return danoBase * 2;
